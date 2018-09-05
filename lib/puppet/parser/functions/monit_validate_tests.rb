@@ -24,7 +24,7 @@ module Puppet::Parser::Functions
       #TODO: GENERIC, SIP, RADIUS, WEBSOCKET
       #CHANGES: Param 'HOSTHEADER' changed to 'HTTP HEADERS' in monit 5.9, see https://mmonit.com/monit/changes/
       'GENERIC'       => ['SEND', 'EXPECT'],
-      'HTTP'          => ['REQUEST', 'STATUS', 'CHECKSUM', 'HOSTHEADER', 'HTTP HEADERS', 'CONTENT'],
+      'HTTP'          => ['REQUEST', 'STATUS', 'CHECKSUM', 'HOSTHEADER', 'HTTP HEADERS', 'CONTENT', 'METHOD'],
       'APACHE-STATUS' => ['LOGLIMIT', 'CLOSELIMIT', 'DNSLIMIT', 'KEEPALIVELIMIT', 'REPLYLIMIT', 'REQUESTLIMIT', 'STARTLIMIT', 'WAITLIMIT', 'GRACEFULLIMIT', 'CLEANUPLIMIT']
     }
 
